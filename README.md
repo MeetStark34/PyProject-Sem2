@@ -14,6 +14,39 @@ Welcome to the Python Game Suite! This project includes a collection of classic 
   - [Reset Password](#reset-password)
 - [Usage](#usage)
 
+## 📂 Folder Structure
+
+The project directory structure is as follows:
+
+```
+Python Project/
+├── auth/
+│   ├── __init__.py
+│   ├── login.py
+│   ├── register.py
+│   └── reset_password.py
+├── games/
+│   ├── __init__.py
+│   ├── tic_tac_toe.py
+│   ├── battleship.py
+│   └── wordle.py
+├── utils/
+│   ├── __init__.py
+│   └── menu.py
+├── main.py
+└── README.md
+```
+
+- `auth/`: Contains modules related to authentication, such as login, register, and reset password functionalities.
+- `games/`: Contains modules for different games, such as Tic-Tac-Toe, Battleship, and Wordle.
+- `utils/`: Contains utility modules, such as the menu module.
+- `main.py`: The main script that runs the application.
+- `README.md`: The README file with project information and instructions.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request with your changes. Ensure your code follows the project's coding standards and includes appropriate tests.
+
 ## 🎲 Games
 
 ### 🕹️ Tic-Tac-Toe
@@ -46,8 +79,8 @@ Users can reset their password by providing their username and a new password. T
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-username/python-game-suite.git
-    cd python-game-suite
+    git clone https://github.com/MeetStark34/PyProject-Sem2
+    cd PyProject-Sem2
     ```
 
 2. Run the main script:
